@@ -10,4 +10,4 @@ git clean -f
 git pull
 chown -R $USER:$USERGROUP $SITE_PATH
 
-npm install && npm run build
+npm run build
