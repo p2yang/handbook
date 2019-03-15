@@ -10,7 +10,7 @@
        "ref"  : "origin/master",
        "repo" : "git@github.com:p2yang/learning-handbook.git",
        "path" : "/www/learning-handbook",
-       "post-deploy" : "yarn; npx vuepress build ."
+       "post-deploy" : "npm run build"
       }
    }
 }

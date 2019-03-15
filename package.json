@@ -5,6 +5,9 @@
   "repository": "git@github.com:p2yang/learning-handbook.git",
   "author": "Sym <p2yang@163.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "npx vuepress build ."
+  },
   "dependencies": {
     "github-webhook-handler": "^0.7.1",
     "vuepress": "^0.14.10"
