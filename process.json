@@ -1,0 +1,16 @@
+{
+   "apps" : [{
+      "name" : "learning-handbook",
+      "script" : "webhook.js"
+   }],
+   "deploy" : {
+     "production" : {
+       "user" : "ubuntu",
+       "host" : ["123.206.82.236"],
+       "ref"  : "origin/master",
+       "repo" : "git@github.com:p2yang/learning-handbook.git",
+       "path" : "/www/learning-handbook",
+       "post-deploy" : "yarn; npx vuepress build ."
+      }
+   }
+}
