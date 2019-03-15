@@ -6,7 +6,7 @@
   "author": "Sym <p2yang@163.com>",
   "license": "MIT",
   "scripts": {
-    "build": "npx vuepress build ."
+    "build": "vuepress build ."
   },
   "dependencies": {
     "github-webhook-handler": "^0.7.1",
