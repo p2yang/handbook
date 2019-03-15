@@ -5,7 +5,6 @@
    }],
    "deploy" : {
      "production" : {
-       "key"  : "~/.ssh/id_rsa.pub",
        "user" : "ubuntu",
        "host" : ["123.206.82.236"],
        "ref"  : "origin/master",
