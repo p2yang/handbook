@@ -9,7 +9,8 @@ module.exports = {
 	  	'/',
       '/css',
       '/cache',
-      '/tools'
+      '/tools',
+      '/test'
     ],
     lastUpdated: '上次更新',
     repo: 'p2yang/learing-handbook',
