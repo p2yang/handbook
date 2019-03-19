@@ -9,3 +9,5 @@ git reset --hard origin/master
 git clean -f
 git pull
 chown -R $USER:$USERGROUP $SITE_PATH
+
+npm run build

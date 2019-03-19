@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "vuepress dev .",
-    "build": "rimraf dist && vuepress build ."
+    "build": "vuepress build ."
   },
   "dependencies": {
     "github-webhook-handler": "^0.7.1"
