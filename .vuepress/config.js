@@ -9,8 +9,9 @@ module.exports = {
   	sidebar: [
 	  	'/',
       '/css',
-      '/cache',
-      '/tools'
+      // '/cache',
+      '/tools',
+      '/others'
     ],
     lastUpdated: '上次更新',
     repo: 'p2yang/learing-handbook',
