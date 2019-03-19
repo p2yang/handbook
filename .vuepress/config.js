@@ -10,6 +10,7 @@ module.exports = {
 	  	'/',
       '/css',
       // '/cache',
+      '/ui',
       '/tools',
       '/others'
     ],
