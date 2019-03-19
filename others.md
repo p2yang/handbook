@@ -13,6 +13,7 @@
 + [阮一峰的个人网站](http://www.ruanyifeng.com)
 + [张鑫旭的个人主页](https://www.zhangxinxu.com/)
 + [JerryQu 的小站](https://imququ.com/)
++ [廖雪峰的官方网站](https://www.liaoxuefeng.com/)
 
 ---
 *声明：排名不分先后。*
