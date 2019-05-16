@@ -12,7 +12,8 @@ module.exports = {
       // '/cache',
       '/ui',
       '/tools',
-      '/others'
+      '/engineering',
+      '/others',
     ],
     lastUpdated: '上次更新',
     repo: 'p2yang/learing-handbook',
