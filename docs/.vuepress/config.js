@@ -13,6 +13,7 @@ module.exports = {
       '/ui',
       '/tools',
       '/engineering',
+      '/protocol',
       '/others',
     ],
     lastUpdated: '上次更新',
