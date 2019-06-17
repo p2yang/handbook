@@ -5,6 +5,7 @@
   "repository": "git@github.com:p2yang/learning-handbook.git",
   "author": "Sym <p2yang@163.com>",
   "license": "MIT",
+  "homepage": "https://github.com/p2yang/learning-handbook",
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs"
