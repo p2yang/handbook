@@ -14,6 +14,7 @@ module.exports = {
       '/tools',
       '/engineering',
       '/protocol',
+      '/node',
       '/others',
     ],
     lastUpdated: '上次更新',
