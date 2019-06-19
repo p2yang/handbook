@@ -15,5 +15,8 @@
 + [JerryQu 的小站](https://imququ.com/)
 + [廖雪峰的官方网站](https://www.liaoxuefeng.com/)
 
+## 修行经验
++ [天天写业务代码，如何成为技术大牛？](https://www.runoob.com/w3cnote/how-to-became-tech-giant.html)
+
 ---
 *声明：排名不分先后。*
