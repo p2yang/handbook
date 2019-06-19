@@ -15,6 +15,7 @@ module.exports = {
       '/engineering',
       '/protocol',
       '/node',
+      '/chrome',
       '/others',
     ],
     lastUpdated: '上次更新',
