@@ -3,6 +3,7 @@
 ## npm
 + [npm模块管理器教程 - 阮一峰](http://javascript.ruanyifeng.com/nodejs/npm.html)
 + [package.json 文件讲解 - 阮一峰](https://javascript.ruanyifeng.com/nodejs/packagejson.html)
++ [你所需要的npm知识储备都在这了 - 掘金](https://juejin.im/post/5d08d3d3f265da1b7e103a4d)
 
 ## yarn
 + [yarn官方文档](https://yarnpkg.com)
