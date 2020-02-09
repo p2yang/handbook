@@ -28,7 +28,7 @@ module.exports = {
       '/others',
     ],
     lastUpdated: '上次更新',
-    repo: 'p2yang/learing-handbook',
+    repo: 'p2yang/handbook',
     editLinks: true,
     editLinkText: '在 GitHub 上编辑此页'
   }
