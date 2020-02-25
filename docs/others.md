@@ -17,6 +17,7 @@
 
 ## 修行经验
 + [天天写业务代码，如何成为技术大牛？](https://www.runoob.com/w3cnote/how-to-became-tech-giant.html)
++ [架构师技术图谱](https://github.com/toutiaoio/awesome-architecture)
 
 ---
 *声明：排名不分先后。*
