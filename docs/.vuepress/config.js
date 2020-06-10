@@ -13,20 +13,30 @@ module.exports = {
   dest: 'dist',
   themeConfig: {
   	nav: [
+      { text: 'Home', link: '/' },
+      { text: 'Guide', link: '/guide/' },
   		{ text: 'Blog', link: 'http://blog.p2yang.com'}
   	],
-  	sidebar: [
-	  	'/',
-      '/css',
-      // '/cache',
-      '/ui',
-      '/tools',
-      '/engineering',
-      '/protocol',
-      '/node',
-      '/chrome',
-      '/others',
-    ],
+  	sidebar: {
+      '/guide/': [
+        {
+          title: '指南',
+          collapsable: false,
+          children: [
+            '',
+            'css',
+            // '/cache',
+            'ui',
+            'tools',
+            'engineering',
+            'protocol',
+            'node',
+            'chrome',
+            'others',
+          ]
+        }
+      ]
+    },
     lastUpdated: '上次更新',
     repo: 'p2yang/handbook',
     editLinks: true,

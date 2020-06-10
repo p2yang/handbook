@@ -1,6 +1,11 @@
-# 介绍
-> 修行，在于持之以恒。
+---
+home: true
+heroText: 前端修行手册
+tagline: 修行，在于持之以恒
+actionText: 前往查看 →
+actionLink: /guide/
+---
 
-本手册收录了一些开发、学习、拓展相关的资源，方便查阅和提升。
-
-目前持续添加中...
+<footer class="footer">
+	<a href="http://www.beian.miit.gov.cn" target="_blank">京ICP备16067245号-1</a> | Copyright © 2018-present p2yang
+</footer>
