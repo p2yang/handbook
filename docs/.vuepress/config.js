@@ -1,6 +1,6 @@
 module.exports = {
   title: '前端修行手册',
-  description: '修行贵在持之以恒。',
+  description: '千里之行，始于足下',
   head: [
     ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }],
     ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' }],
@@ -15,6 +15,7 @@ module.exports = {
   	nav: [
       { text: 'Home', link: '/' },
       { text: 'Guide', link: '/guide/' },
+      { text: 'Source', link: '/source/imooc' },
   		{ text: 'Blog', link: 'http://blog.p2yang.com'}
   	],
   	sidebar: {
@@ -31,8 +32,18 @@ module.exports = {
             'engineering',
             'protocol',
             'node',
+            'npm',
             'chrome',
             'others',
+          ]
+        }
+      ],
+      '/source/': [
+        {
+          title: '资源',
+          collapsable: false,
+          children: [
+            'imooc'
           ]
         }
       ]

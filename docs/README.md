@@ -1,7 +1,7 @@
 ---
 home: true
 heroText: 前端修行手册
-tagline: 修行，在于持之以恒
+tagline: 千里之行，始于足下
 actionText: 前往查看 →
 actionLink: /guide/
 ---
