@@ -30,6 +30,7 @@ module.exports = {
             'ui',
             'tools',
             'engineering',
+            'font',
             'protocol',
             'node',
             'npm',
