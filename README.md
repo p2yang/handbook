@@ -5,7 +5,7 @@
 
 > 前端学习小册
 
-### 🏠 [Homepage](http://handbook.p2yang.com)
+### 🏠 [Homepage](https://p2yang.github.io/handbook/)
 
 ## Install
 
@@ -14,8 +14,6 @@ npm install
 ```
 
 ## Author
-
-👤 **Sym &lt;p2yang@163.com&gt;**
 
 * Github: [@p2yang](https://github.com/p2yang)
 

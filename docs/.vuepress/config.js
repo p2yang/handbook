@@ -10,13 +10,14 @@ module.exports = {
     ['meta', { name: 'msapplication-TileColor', content: '#da532c' }],
     ['meta', { name: 'theme-color', content: '#ffffff' }]
   ],
+  base: '/handbook/',
   dest: 'dist',
   themeConfig: {
   	nav: [
       { text: 'Home', link: '/' },
       { text: 'Guide', link: '/guide/' },
       { text: 'Source', link: '/source/imooc' },
-  		{ text: 'Blog', link: 'http://blog.p2yang.com'}
+  		// { text: 'Blog', link: 'http://blog.p2yang.com'}
   	],
   	sidebar: {
       '/guide/': [
@@ -44,7 +45,8 @@ module.exports = {
           title: '资源',
           collapsable: false,
           children: [
-            'imooc'
+            'imooc',
+            'book'
           ]
         }
       ]
