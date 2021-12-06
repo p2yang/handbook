@@ -7,5 +7,6 @@ actionLink: /guide/
 ---
 
 <footer class="footer">
-	<a href="http://www.beian.miit.gov.cn" target="_blank">京ICP备16067245号-1</a> | Copyright © 2018-present p2yang
+	<!-- <a href="http://www.beian.miit.gov.cn" target="_blank">京ICP备16067245号-1</a> |  -->Copyright © 2018-present p2yang
 </footer>
+
