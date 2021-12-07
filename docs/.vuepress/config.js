@@ -13,7 +13,7 @@ module.exports = {
   base: '/handbook/',
   dest: 'dist',
   themeConfig: {
-  	nav: [
+  	navbar: [
       { text: 'Home', link: '/' },
       { text: 'Guide', link: '/guide/' },
       { text: 'Source', link: '/source/imooc' },
