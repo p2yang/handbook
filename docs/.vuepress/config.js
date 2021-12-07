@@ -56,5 +56,20 @@ module.exports = {
     repo: 'p2yang/handbook',
     editLinks: true,
     editLinkText: '在 GitHub 上编辑此页'
-  }
+  },
+  plugins: [
+    [
+      '@vuepress/plugin-search',
+      {
+        locales: {
+          '/': {
+            placeholder: 'Search',
+          },
+          '/zh/': {
+            placeholder: '搜索',
+          },
+        },
+      },
+    ],
+  ]
 }
