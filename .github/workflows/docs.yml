@@ -58,7 +58,7 @@ jobs:
         uses: crazy-max/ghaction-github-pages@v2
         with:
           repo: p2yang/handbook
-          target_branch: master
+          target_branch: main
           build_dir: dist
         env:
           # @see https://docs.github.com/cn/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
