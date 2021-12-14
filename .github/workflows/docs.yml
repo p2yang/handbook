@@ -7,7 +7,7 @@ on:
 # 每当 push 到 main 分支时触发部署
   push:
     branches: [main]
-    
+
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -25,7 +25,7 @@ jobs:
         with:
           # “最近更新时间” 等 git 日志相关信息，需要拉取全部提交记录
           fetch-depth: 0
-          
+
       - name: Setup Node.js
         uses: actions/setup-node@v1
         with:
@@ -61,10 +61,8 @@ jobs:
           target_branch: gh-pages
           # 部署目录为 VuePress 的默认输出目录
           build_dir: dist
-          external_repository: p2yang/p2yang.github.io/handbook
-          publish_branch: main
-          user_name: 'github-actions[bot]'
-          user_email: 'github-actions[bot]@users.noreply.github.com'
+          repo: p2yang/p2yang.github.io/handbook
+          target_branch: master
         env:
           # @see https://docs.github.com/cn/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

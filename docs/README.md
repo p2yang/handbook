@@ -1,12 +1,14 @@
 ---
 home: true
-heroText: 前端修行手册
+title: Home
+heroText: Web 修行手册
 tagline: 千里之行，始于足下
-actionText: 前往查看 →
-actionLink: /guide/
+actions:
+  - text: 修行指南
+    link: /guide/
+    type: primary
+  - text: 免费资源
+    link: /source/imooc
+    type: secondary
+footer: MIT Licensed | Copyright © 2018-present p2yang
 ---
-
-<footer class="footer">
-	<!-- <a href="http://www.beian.miit.gov.cn" target="_blank">京ICP备16067245号-1</a> |  -->Copyright © 2018-present p2yang
-</footer>
-

@@ -1,18 +1,22 @@
+const base = '/handbook/'
+const logo = base + 'logo.png'
+
 module.exports = {
   title: '前端修行手册',
   description: '千里之行，始于足下',
   head: [
-    ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }],
-    ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' }],
-    ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' }],
-    ['link', { rel: 'manifest', href: '/site.webmanifest' }],
-    ['link', { rel: 'mask-icon', href: '/safari-pinned-tab.svg', color: '#5bbad5' }],
+    ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: logo }],
+    ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: logo }],
+    ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: logo }],
+    ['link', { rel: 'manifest', href: base + 'site.webmanifest' }],
+    ['link', { rel: 'mask-icon', href: logo, color: '#5bbad5' }],
     ['meta', { name: 'msapplication-TileColor', content: '#da532c' }],
     ['meta', { name: 'theme-color', content: '#ffffff' }]
   ],
-  base: '/handbook/',
+  base,
   dest: 'dist',
   themeConfig: {
+    logo: '/logo.png',
     home: '/guide/',
   	navbar: [
       { text: 'Home', link: '/' },
@@ -26,11 +30,12 @@ module.exports = {
           title: '指南',
           collapsable: false,
           children: [
-            '',
+            // '',
             'css',
             // '/cache',
             'ui',
             'tools',
+            'performance',
             'engineering',
             'font',
             'protocol',
@@ -47,7 +52,8 @@ module.exports = {
           collapsable: false,
           children: [
             'imooc',
-            'book'
+            'book',
+            'blogs'
           ]
         }
       ]
