@@ -3,15 +3,9 @@
   <img src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
 </p>
 
-> 前端学习小册
+> 前端修行手册
 
 ### 🏠 [Homepage](https://p2yang.github.io/handbook/)
-
-## Install
-
-```sh
-npm install
-```
 
 ## Author
 

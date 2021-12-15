@@ -21,8 +21,8 @@ module.exports = {
   	navbar: [
       { text: 'Home', link: '/' },
       { text: 'Guide', link: '/guide/' },
-      { text: 'Source', link: '/source/imooc' },
-  		// { text: 'Blog', link: 'http://blog.p2yang.com'}
+      { text: 'Source', link: '/source/' },
+  		{ text: 'Blog', link: 'https://p2yang.github.io/blog/'}
   	],
   	sidebar: {
       '/guide/': [
@@ -30,19 +30,8 @@ module.exports = {
           title: '指南',
           collapsable: false,
           children: [
-            // '',
-            'css',
-            // '/cache',
-            'ui',
-            'tools',
-            'performance',
-            'engineering',
-            'font',
-            'protocol',
-            'node',
-            'npm',
-            'chrome',
-            'others',
+            '',
+            'ui'
           ]
         }
       ],
@@ -51,9 +40,8 @@ module.exports = {
           title: '资源',
           collapsable: false,
           children: [
-            'imooc',
-            'book',
-            'blogs'
+            '',
+            'imooc'
           ]
         }
       ]

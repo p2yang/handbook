@@ -8,7 +8,7 @@ actions:
     link: /guide/
     type: primary
   - text: 免费资源
-    link: /source/imooc
+    link: /source/
     type: secondary
 footer: MIT Licensed | Copyright © 2018-present p2yang
 ---
