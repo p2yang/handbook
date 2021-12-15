@@ -48,6 +48,8 @@ module.exports = {
     },
     lastUpdatedText: '上次更新',
     repo: 'p2yang/learning-handbook',
+    docsBranch: 'master',
+    docsDir: 'docs',
     editLinks: true,
     editLinkText: '在 GitHub 上编辑此页'
   },
