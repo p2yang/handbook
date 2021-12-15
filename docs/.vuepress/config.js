@@ -19,10 +19,10 @@ module.exports = {
     logo: '/logo.png',
     home: '/guide/',
   	navbar: [
-      { text: 'Home', link: '/' },
-      { text: 'Guide', link: '/guide/' },
-      { text: 'Source', link: '/source/' },
-  		{ text: 'Blog', link: 'https://p2yang.github.io/blog/'}
+      { text: '首页', link: '/' },
+      { text: '指南', link: '/guide/' },
+      { text: '资源', link: '/source/' },
+  		{ text: '博客', link: 'https://p2yang.github.io/blog/'}
   	],
   	sidebar: {
       '/guide/': [
@@ -47,6 +47,7 @@ module.exports = {
       ]
     },
     lastUpdatedText: '上次更新',
+    contributorsText: '贡献者',
     repo: 'p2yang/learning-handbook',
     docsBranch: 'master',
     docsDir: 'docs',
@@ -59,11 +60,8 @@ module.exports = {
       {
         locales: {
           '/': {
-            placeholder: 'Search',
-          },
-          '/zh/': {
             placeholder: '搜索',
-          },
+          }
         },
       },
     ],
