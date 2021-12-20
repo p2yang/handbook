@@ -90,7 +90,9 @@
 <!--  -->
 ## [Node](https://nodejs.org)
 ### 教程
-[七天学会NodeJS](http://nqdeng.github.io/7-days-nodejs/)
++ [七天学会NodeJS](http://nqdeng.github.io/7-days-nodejs/)
++ [《深入理解Node.js：核心思想与源码分析》](https://yjhjstz.gitbooks.io/deep-into-node/content/)
++ [Node.js 最佳实践](https://github.com/goldbergyoni/nodebestpractices/blob/master/README.chinese.md)
 
 ### 其他
 + [pm2](http://pm2.keymetrics.io/)
