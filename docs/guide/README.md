@@ -5,8 +5,16 @@
 
 目前持续添加中...
 
+## HTML
++ [HTML 初学者教程 - MDN](https://developer.mozilla.org/zh-CN/docs/Web/HTML)
+
 <!-- css -->
 ## CSS
++ [CSS 教程 - MDN](https://developer.mozilla.org/zh-CN/docs/Web/CSS)
+
+### CSS 动画
++ [《CSS Animation 101》](https://h-wakanda.github.io/css-animation-101-cn/#welcome)
+
 ### 预编译
 + [less](http://lesscss.org/)
 + [Sass](https://sass-lang.com/)
@@ -15,6 +23,10 @@
 ### 对比分析
 + [再谈 CSS 预处理器 | EFE Tech](https://efe.baidu.com/blog/revisiting-css-preprocessors/)
 
+## JS
++ [JavaScript 教程 - MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript)
++ [《JavaScript权威指南（原书第7版）》](https://book.douban.com/subject/35396470/)
++ [《ECMAScript 6 入门》阮一峰](http://es6.ruanyifeng.com/)
 
 <!--  -->
 ## 性能优化
@@ -97,7 +109,6 @@
 ### 其他
 + [pm2](http://pm2.keymetrics.io/)
 
-
 <!--  -->
 ## 用户体验
 + [网页无障碍和W3C标准的介绍视频](https://www.w3.org/WAI/videos/standards-and-benefits/zh-hans)
@@ -113,3 +124,8 @@
 
 2. Font
 	+ [免费字体获取和使用指南 - 少数派](https://sspai.com/post/42889)
+
+
+<!-- API -->
+##
++ [GraphQL 学习](https://graphql.cn/learn/)
