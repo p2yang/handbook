@@ -8,9 +8,6 @@ on:
   push:
     branches: [master]
 
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
-
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
@@ -55,10 +52,8 @@ jobs:
       # 查看 workflow 的文档来获取更多信息
       # @see https://github.com/crazy-max/ghaction-github-pages
       - name: Deploy to GitHub Pages
-        uses: crazy-max/ghaction-github-pages@v2.2.0
+        uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
-          repo: p2yang/handbook
-          target_branch: main
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: build
