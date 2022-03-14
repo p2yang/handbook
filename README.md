@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to learing-handbook 👋</h1>
+<h1 align="center">Welcome to my handbook of Web 👋</h1>
 <p>
   <img src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
 </p>
