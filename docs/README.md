@@ -2,7 +2,7 @@
 home: true
 title: Home
 heroText: Web 修行手册
-tagline: 千里之行，始于足下
+tagline: 记录沿途风景
 actions:
   - text: 修行指南
     link: /guide/
