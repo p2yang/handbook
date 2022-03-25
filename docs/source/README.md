@@ -1,5 +1,5 @@
 # 免费网络资源
-> My Blog: [https://p2yang.github.io/blog/](https://p2yang.github.io/blog/)
+> My Blog: [https://p2yang.github.io](https://p2yang.github.io)
 
 
 ## Blogs

@@ -63,7 +63,7 @@ const config = {
             label: '资源',
           },
           {
-            href: 'https://p2yang.github.io/blog/',
+            href: 'https://p2yang.github.io',
             label: 'Blog',
             position: 'right',
           },
