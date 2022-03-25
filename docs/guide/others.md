@@ -4,7 +4,7 @@
 ## 学习平台
 + [中文大学计算机专业课程体系 - 网易云课堂](https://study.163.com/curricula/cs.htm)
 + [慕课网-程序员的梦工厂](https://www.imooc.com)
-+ [一些慕课网免费学习计划链接](/source/imooc.html)
++ [一些慕课网免费学习计划链接](/docs/source/imooc)
 + [优达学城](https://cn.udacity.com/)
 
 ## 体系指南
