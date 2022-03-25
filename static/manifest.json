@@ -1,0 +1,14 @@
+{
+    "name": "Web 修行手册",
+    "short_name": "Web handbook",
+    "icons": [
+        {
+            "src": "/img/logo.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#2e8555",
+    "background_color": "#2e8555",
+    "display": "standalone"
+}

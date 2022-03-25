@@ -10,6 +10,7 @@ const config = {
   tagline: '记录沿途风景',
   url: 'https://p2yang.github.io',
   baseUrl: '/handbook/',
+  staticDirectories: ['static'],
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: '/img/favicon.ico',
@@ -83,7 +84,6 @@ const config = {
     [
       '@docusaurus/plugin-pwa',
       {
-        debug: true,
         offlineModeActivationStrategies: [
           'appInstalled',
           'standalone',
