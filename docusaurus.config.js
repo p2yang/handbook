@@ -6,8 +6,8 @@
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '前端修行手册',
-  tagline: '记录沿途风景',
+  title: 'Web 修行手册',
+  tagline: '汇聚 web 开发指南 & 资源',
   url: 'https://p2yang.github.io',
   baseUrl: '/handbook/',
   staticDirectories: ['static'],

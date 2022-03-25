@@ -18,7 +18,7 @@ function HomepageHeader() {
             修行指南
           </Link>
           <Link
-            className="button button--outline"
+            className="button button--primary"
             style={{ marginLeft: '20px' }}
             to="/docs/source">
             开源资源

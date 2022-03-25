@@ -10,7 +10,7 @@
         }
     ],
     "start_url": "/handbook",
-    "theme_color": "#2e8555",
-    "background_color": "#2e8555",
+    "theme_color": "#b93233",
+    "background_color": "#b93233",
     "display": "standalone"
 }
