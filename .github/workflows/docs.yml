@@ -6,7 +6,7 @@ name: docs
 on:
 # 每当 push 到 master 分支时触发部署
   push:
-    branches: [docusaurus]
+    branches: [master]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
