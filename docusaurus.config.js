@@ -123,7 +123,7 @@ const config = {
           {
             tagName: 'link',
             rel: 'mask-icon',
-            href: '/img/docusaurus.svg',
+            href: '/img/logo.png',
             color: 'rgb(37, 194, 160)',
           },
           {
