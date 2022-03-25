@@ -52,13 +52,16 @@ const config = {
         },
         hideOnScroll: true,
         items: [
-          // {
-          //   type: 'doc',
-          //   docId: 'guide',
-          //   position: 'left',
-          //   label: '指南',
-          // },
-          // {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            to: '/docs/guide',
+            position: 'left',
+            label: '指南',
+          },
+          {
+            to: '/docs/source',
+            position: 'left',
+            label: '资源',
+          },
           {
             href: 'https://p2yang.github.io/blog/',
             label: 'Blog',

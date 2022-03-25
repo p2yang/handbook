@@ -15,13 +15,13 @@ function HomepageHeader() {
           <Link
             className="button button--primary"
             to="/docs/guide">
-            修行指南
+            指南
           </Link>
           <Link
             className="button button--primary"
             style={{ marginLeft: '20px' }}
             to="/docs/source">
-            开源资源
+            资源
           </Link>
         </div>
       </div>
