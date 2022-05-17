@@ -1,4 +1,4 @@
-# 其他
+# 成长体系
 > 最好的投资是投资自己。
 
 ## 学习平台
@@ -19,6 +19,7 @@
 ## 修行经验
 + [天天写业务代码，如何成为技术大牛？](https://www.runoob.com/w3cnote/how-to-became-tech-giant.html)
 + [架构师技术图谱](https://github.com/toutiaoio/awesome-architecture)
++ [一个前端的自我修养](https://mp.weixin.qq.com/s/Z5WDaUPJ9DWT4f4sdHR_dw)
 
 ---
 *声明：排名不分先后。*
