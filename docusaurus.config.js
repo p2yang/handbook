@@ -20,9 +20,9 @@ const config = {
 
   presets: [
     [
-      'classic',
+      '@docusaurus/preset-classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
+      {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl: 'https://github.com/p2yang/handbook/edit/master/',
@@ -35,15 +35,19 @@ const config = {
         // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
-        },
-      }),
+        }
+      }
     ],
   ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      hideableSidebar: true,
+      docs: {
+        sidebar: {
+          hideable: false
+        }
+      },
       navbar: {
         title: 'Web 修行手册',
         logo: {
