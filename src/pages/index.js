@@ -11,14 +11,14 @@ function HomepageHeader() {
       <div>
         <h1 className="header-title">{siteConfig.title}</h1>
         <p className="header-subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
+        <div className={styles.buttonsGroup}>
           <Link
-            className="button button--primary"
+            className={styles.buttons}
             to="/docs/guide">
             指南
           </Link>
           <Link
-            className="button button--primary"
+            className={styles.buttons}
             style={{ marginLeft: '20px' }}
             to="/docs/source">
             资源
