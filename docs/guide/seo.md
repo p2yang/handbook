@@ -9,3 +9,6 @@
 + [IndexNow 协议](https://www.indexnow.org/)
 + [Google Search Console](https://search.google.com/search-console)
 + [Bing Webmasters](https://www.bing.com/webmasters)
+
+## 开放图谱标记
++ [The Open Graph protocol](https://ogp.me/)
