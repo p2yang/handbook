@@ -4,12 +4,14 @@
 // const lightCodeTheme = require('prism-react-renderer/themes/github');
 // const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
+const isCloudflare = !!process.env.CLOUDFLARE_PAGES
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Web 修行手册',
   tagline: '汇聚 web 开发指南 & 资源',
   url: 'https://p2yang.github.io',
-  baseUrl: '/handbook/',
+  baseUrl: isCloudflare ? '/' : '/handbook/',
   staticDirectories: ['static'],
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
