@@ -27,6 +27,7 @@
 + [JavaScript 教程 - MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript)
 + [《JavaScript权威指南（原书第7版）》](https://book.douban.com/subject/35396470/)
 + [《ECMAScript 6 入门》阮一峰](http://es6.ruanyifeng.com/)
++ [[译]写给恐龙的现代Javascript指南](https://javahashbrown.github.io/Blog/%E8%AF%91-%E5%86%99%E7%BB%99%E6%81%90%E9%BE%99%E7%9A%84%E7%8E%B0%E4%BB%A3Javascript%E6%8C%87%E5%8D%97/)
 
 <!--  -->
 ## 性能优化
